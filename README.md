@@ -11,7 +11,7 @@
 
 <p><b>🔬 Automotive Embedded Software Engineer</b></p>
 
-<h2>🎓 Education</h2>
+<h2>🎓 Education ZONE</h2>
 
 <p>
 🏫 <b>Incheon National University</b><br>
@@ -23,7 +23,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;↳ Automotive Embedded Software · 2026.06
 </p>
 
-<h2>🏆 Awards & Activities</h2>
+<h2>🏆 Awards ZONE & Activities</h2>
 
 <p>🏎️ <b>2025 · HL FMA 자율주행 경진대회</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;↳ 센서 통합 기반 유아전동차 자율주행 · <b>장려상</b></p>
