@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="760" viewBox="0 0 380 760" role="img" aria-labelledby="title desc">
+<title id="title">Top-view vehicle profile architecture</title>
+<desc id="desc">A top-view car containing Profile HPC, Education Zone, and Awards Zone connected vertically through SOME/IP.</desc>
+
+<rect width="380" height="760" rx="24" fill="#FFFFFF"/>
+<rect x="1.5" y="1.5" width="377" height="757" rx="22.5" fill="none" stroke="#E5E7EB" stroke-width="2"/>
+
+<!-- Top-view car silhouette -->
+<g fill="none" stroke="#9CA3AF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- outer body -->
+  <path d="M190 26
+           C130 26 104 45 91 86
+           L76 142
+           C67 178 64 217 64 262
+           L64 553
+           C64 620 84 678 125 710
+           C145 726 166 734 190 736
+           C214 734 235 726 255 710
+           C296 678 316 620 316 553
+           L316 262
+           C316 217 313 178 304 142
+           L289 86
+           C276 45 250 26 190 26 Z"/>
+  <!-- side mirrors -->
+  <path d="M72 174 L40 163 C31 160 25 168 28 178 L35 198 C38 207 48 210 58 205 L76 196"/>
+  <path d="M308 174 L340 163 C349 160 355 168 352 178 L345 198 C342 207 332 210 322 205 L304 196"/>
+  <!-- roof / windows -->
+  <path d="M124 87 C139 61 160 50 190 50 C220 50 241 61 256 87"/>
+  <path d="M111 114 C137 93 160 84 190 84 C220 84 243 93 269 114"/>
+  <path d="M101 145 C128 128 155 119 190 119 C225 119 252 128 279 145"/>
+  <path d="M103 585 C129 610 157 622 190 622 C223 622 251 610 277 585"/>
+  <path d="M114 658 C137 678 161 686 190 686 C219 686 243 678 266 658"/>
+  <!-- wheel hints -->
+  <path d="M61 259 C49 270 45 288 45 322 L45 395 C45 429 49 447 61 458"/>
+  <path d="M319 259 C331 270 335 288 335 322 L335 395 C335 429 331 447 319 458"/>
+  <path d="M67 475 C53 488 49 509 49 548 L49 588 C49 623 55 643 72 655"/>
+  <path d="M313 475 C327 488 331 509 331 548 L331 588 C331 623 325 643 308 655"/>
+</g>
+
+<!-- light glass areas -->
+<path d="M118 148 C142 134 163 129 190 129 C217 129 238 134 262 148
+         L250 222 C231 216 212 213 190 213 C168 213 149 216 130 222 Z"
+      fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1.4"/>
+<path d="M122 555 C142 568 163 574 190 574 C217 574 238 568 258 555
+         L247 618 C229 625 211 629 190 629 C169 629 151 625 133 618 Z"
+      fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1.4"/>
+
+<!-- SOME/IP backbone -->
+<line x1="190" y1="192" x2="190" y2="594" stroke="#CBD5E1" stroke-width="3"/>
+<circle cx="190" cy="238" r="5.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+<circle cx="190" cy="390" r="5.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+<circle cx="190" cy="542" r="5.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+
+<!-- PROFILE / HPC -->
+<rect x="105" y="151" width="170" height="88" rx="18" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5"/>
+<text x="190" y="181" text-anchor="middle" fill="#2563EB"
+      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">PROFILE</text>
+<text x="190" y="218" text-anchor="middle" fill="#111827"
+      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">HPC</text>
+
+<text x="210" y="305" fill="#6B7280"
+      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">SOME/IP</text>
+
+<!-- Education Zone -->
+<rect x="83" y="315" width="214" height="78" rx="18" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5"/>
+<text x="190" y="362" text-anchor="middle" fill="#111827"
+      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Education ZONE</text>
+
+<text x="210" y="457" fill="#6B7280"
+      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">SOME/IP</text>
+
+<!-- Awards Zone -->
+<rect x="83" y="467" width="214" height="78" rx="18" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5"/>
+<text x="190" y="514" text-anchor="middle" fill="#111827"
+      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Awards ZONE</text>
+
+<!-- lower endpoint -->
+<circle cx="190" cy="594" r="7" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+</svg>
