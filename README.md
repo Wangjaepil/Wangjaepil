@@ -41,10 +41,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;↳ AI 음향 인식 기반 산업안전 웨어러블 시스템</p>
 
 <p>🥇 <b>2026 · 차량용 통신 시스템 프로젝트</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;↳ 스토어형 차량용 OTA 서비스 · <b>우수 프로젝트상</b></p>
+&nbsp;&nbsp;&nbsp;&nbsp;↳ 스토어형 차량용 OTA 서비스 · <b>우수 프로젝트상 (1등)</b></p>
 
 <p>🥇 <b>2026 · 자율주행 기능 구현 프로젝트</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;↳ 주차 보조 시스템 및 자동출차 · <b>우수 프로젝트상</b></p>
+&nbsp;&nbsp;&nbsp;&nbsp;↳ 주차 보조 시스템 및 자동출차 · <b>우수 프로젝트상 (1등)</b></p>
 </td>
 </tr>
 </table>
