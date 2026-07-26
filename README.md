@@ -15,12 +15,12 @@
 
 <p>
 🏫 <b>Incheon National University</b><br>
-B.S. in Embedded Systems Engineering · 2026.02
+&nbsp;&nbsp;&nbsp;&nbsp;↳ B.S. in Embedded Systems Engineering · 2026.02
 </p>
 
 <p>
 📖 <b>Hyundai AutoEver Mobility SW School</b><br>
-Automotive Embedded Software · 2026.06
+&nbsp;&nbsp;&nbsp;&nbsp;↳ Automotive Embedded Software · 2026.06
 </p>
 
 <h2>🏆 Awards & Activities</h2>
