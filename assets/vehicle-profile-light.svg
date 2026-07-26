@@ -1,79 +1,169 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="380" height="760" viewBox="0 0 380 760" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="980" viewBox="0 0 430 980" role="img" aria-labelledby="title desc">
 <title id="title">Top-view vehicle profile architecture</title>
-<desc id="desc">A top-view car containing Profile HPC, Education Zone, and Awards Zone connected vertically through SOME/IP.</desc>
+<desc id="desc">Detailed top-view sedan silhouette with Profile HPC, Education ZONE, and Awards ZONE / Activities connected by a centered SOME/IP backbone.</desc>
+<defs>
+  <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#E5E7EB" flood-opacity="0.55"/>
+  </filter>
+  <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#F7F8FA"/>
+    <stop offset="100%" stop-color="#F7F8FA"/>
+  </linearGradient>
+  <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#C8D6E8"/>
+    <stop offset="100%" stop-color="#B8C8DC"/>
+  </linearGradient>
+</defs>
 
-<rect width="380" height="760" rx="24" fill="#FFFFFF"/>
-<rect x="1.5" y="1.5" width="377" height="757" rx="22.5" fill="none" stroke="#E5E7EB" stroke-width="2"/>
+<rect width="430" height="980" rx="24" fill="#FFFFFF"/>
+<rect x="1.5" y="1.5" width="427" height="977" rx="22.5" fill="none" stroke="#E5E7EB" stroke-width="2"/>
 
-<!-- Top-view car silhouette -->
-<g fill="none" stroke="#9CA3AF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<!-- Vehicle -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
   <!-- outer body -->
-  <path d="M190 26
-           C130 26 104 45 91 86
-           L76 142
-           C67 178 64 217 64 262
-           L64 553
-           C64 620 84 678 125 710
-           C145 726 166 734 190 736
-           C214 734 235 726 255 710
-           C296 678 316 620 316 553
-           L316 262
-           C316 217 313 178 304 142
-           L289 86
-           C276 45 250 26 190 26 Z"/>
-  <!-- side mirrors -->
-  <path d="M72 174 L40 163 C31 160 25 168 28 178 L35 198 C38 207 48 210 58 205 L76 196"/>
-  <path d="M308 174 L340 163 C349 160 355 168 352 178 L345 198 C342 207 332 210 322 205 L304 196"/>
-  <!-- roof / windows -->
-  <path d="M124 87 C139 61 160 50 190 50 C220 50 241 61 256 87"/>
-  <path d="M111 114 C137 93 160 84 190 84 C220 84 243 93 269 114"/>
-  <path d="M101 145 C128 128 155 119 190 119 C225 119 252 128 279 145"/>
-  <path d="M103 585 C129 610 157 622 190 622 C223 622 251 610 277 585"/>
-  <path d="M114 658 C137 678 161 686 190 686 C219 686 243 678 266 658"/>
-  <!-- wheel hints -->
-  <path d="M61 259 C49 270 45 288 45 322 L45 395 C45 429 49 447 61 458"/>
-  <path d="M319 259 C331 270 335 288 335 322 L335 395 C335 429 331 447 319 458"/>
-  <path d="M67 475 C53 488 49 509 49 548 L49 588 C49 623 55 643 72 655"/>
-  <path d="M313 475 C327 488 331 509 331 548 L331 588 C331 623 325 643 308 655"/>
+  <path d="M215 28
+           C153 28 125 43 103 74
+           L84 106
+           C71 130 63 170 60 237
+           L60 713
+           C63 779 71 819 84 843
+           L103 876
+           C125 907 153 922 215 922
+           C277 922 305 907 327 876
+           L346 843
+           C359 819 367 779 370 713
+           L370 237
+           C367 170 359 130 346 106
+           L327 74
+           C305 43 277 28 215 28 Z"
+        fill="url(#bodyGrad)" stroke="#111827" stroke-width="3.1"/>
+
+  <!-- front and rear bumper seams -->
+  <path d="M145 53 C166 40 188 36 215 36 C242 36 264 40 285 53" stroke="#6B7280" stroke-width="1.8"/>
+  <path d="M140 70 C163 56 188 50 215 50 C242 50 267 56 290 70" stroke="#111827" stroke-width="1.8"/>
+  <path d="M140 880 C163 894 188 900 215 900 C242 900 267 894 290 880" stroke="#111827" stroke-width="1.8"/>
+  <path d="M145 897 C166 910 188 914 215 914 C242 914 264 910 285 897" stroke="#6B7280" stroke-width="1.8"/>
+
+  <!-- shoulder line -->
+  <path d="M106 122 C140 97 169 88 215 88 C261 88 290 97 324 122" stroke="#6B7280" stroke-width="1.8"/>
+
+  <!-- side scallops / door waist -->
+  <path d="M95 214 C106 203 118 198 134 197" stroke="#6B7280" stroke-width="1.5"/>
+  <path d="M335 214 C324 203 312 198 296 197" stroke="#6B7280" stroke-width="1.5"/>
+  <path d="M94 507 C107 496 120 491 135 490" stroke="#6B7280" stroke-width="1.5"/>
+  <path d="M336 507 C323 496 310 491 295 490" stroke="#6B7280" stroke-width="1.5"/>
+
+  <!-- front windscreen -->
+  <path d="M125 120
+           C147 98 173 88 215 88
+           C257 88 283 98 305 120
+           L292 229
+           C268 222 242 218 215 218
+           C188 218 162 222 138 229 Z"
+        fill="url(#glassGrad)" stroke="#111827" stroke-width="2.2"/>
+
+  <!-- roof panels -->
+  <path d="M139 237
+           C162 229 187 225 215 225
+           C243 225 268 229 291 237
+           L280 337
+           C258 333 237 330 215 330
+           C193 330 172 333 150 337 Z"
+        fill="#1F2937" stroke="#111827" stroke-width="1.8"/>
+
+  <path d="M149 344
+           C170 338 190 335 215 335
+           C240 335 260 338 281 344
+           L271 438
+           C253 442 235 444 215 444
+           C195 444 177 442 159 438 Z"
+        fill="#1F2937" stroke="#6B7280" stroke-width="1.5"/>
+
+  <!-- rear roof / glass -->
+  <path d="M149 530
+           C170 536 190 539 215 539
+           C240 539 260 536 281 530
+           L291 625
+           C268 632 242 636 215 636
+           C188 636 162 632 139 625 Z"
+        fill="#1F2937" stroke="#6B7280" stroke-width="1.5"/>
+
+  <path d="M138 632
+           C162 628 188 624 215 624
+           C242 624 268 628 292 632
+           L305 748
+           C283 772 257 782 215 782
+           C173 782 147 772 125 748 Z"
+        fill="url(#glassGrad)" stroke="#111827" stroke-width="2.2"/>
+
+  <!-- hood / trunk seams -->
+  <path d="M133 110 L121 173" stroke="#9CA3AF" stroke-width="1.2"/>
+  <path d="M297 110 L309 173" stroke="#9CA3AF" stroke-width="1.2"/>
+  <path d="M215 64 L215 80" stroke="#6B7280" stroke-width="1.4"/>
+  <path d="M215 861 L215 846" stroke="#6B7280" stroke-width="1.4"/>
+
+  <!-- trunk side seams -->
+  <path d="M124 742 C139 760 159 772 186 778" stroke="#9CA3AF" stroke-width="1.1"/>
+  <path d="M306 742 C291 760 271 772 244 778" stroke="#9CA3AF" stroke-width="1.1"/>
+
+  <!-- wheel arches -->
+  <path d="M58 252 C40 270 34 299 34 348 L34 430 C34 480 40 509 58 527" stroke="#111827" stroke-width="2.4"/>
+  <path d="M372 252 C390 270 396 299 396 348 L396 430 C396 480 390 509 372 527" stroke="#111827" stroke-width="2.4"/>
+  <path d="M66 570 C46 590 39 622 39 681 L39 718 C39 753 48 782 67 796" stroke="#111827" stroke-width="2.4"/>
+  <path d="M364 570 C384 590 391 622 391 681 L391 718 C391 753 382 782 363 796" stroke="#111827" stroke-width="2.4"/>
+
+  <!-- mirrors detailed -->
+  <path d="M83 180 L45 169 C32 165 25 174 29 186 L38 210 C42 220 54 222 65 217 L84 207" stroke="#111827" stroke-width="2.4"/>
+  <path d="M347 180 L385 169 C398 165 405 174 401 186 L392 210 C388 220 376 222 365 217 L346 207" stroke="#111827" stroke-width="2.4"/>
+  <path d="M84 198 L65 203" stroke="#6B7280" stroke-width="1.2"/>
+  <path d="M346 198 L365 203" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- headlights -->
+  <path d="M113 71 C99 81 92 94 89 112 C102 106 112 99 120 87" fill="#F3F4F6" stroke="#111827" stroke-width="1.6"/>
+  <path d="M317 71 C331 81 338 94 341 112 C328 106 318 99 310 87" fill="#F3F4F6" stroke="#111827" stroke-width="1.6"/>
+
+  <!-- taillights -->
+  <path d="M112 861 C100 849 93 836 90 819 C104 824 114 832 121 844" fill="#E5E7EB" stroke="#111827" stroke-width="1.6"/>
+  <path d="M318 861 C330 849 337 836 340 819 C326 824 316 832 309 844" fill="#E5E7EB" stroke="#111827" stroke-width="1.6"/>
+
+  <!-- handles -->
+  <path d="M104 309 L118 306" stroke="#6B7280" stroke-width="1.4"/>
+  <path d="M312 306 L326 309" stroke="#6B7280" stroke-width="1.4"/>
+  <path d="M104 408 L118 405" stroke="#6B7280" stroke-width="1.4"/>
+  <path d="M312 405 L326 408" stroke="#6B7280" stroke-width="1.4"/>
 </g>
 
-<!-- light glass areas -->
-<path d="M118 148 C142 134 163 129 190 129 C217 129 238 134 262 148
-         L250 222 C231 216 212 213 190 213 C168 213 149 216 130 222 Z"
-      fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1.4"/>
-<path d="M122 555 C142 568 163 574 190 574 C217 574 238 568 258 555
-         L247 618 C229 625 211 629 190 629 C169 629 151 625 133 618 Z"
-      fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1.4"/>
+<!-- central backbone -->
+<line x1="215" y1="205" x2="215" y2="710" stroke="#CBD5E1" stroke-width="3.5"/>
+<circle cx="215" cy="275" r="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+<circle cx="215" cy="485" r="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+<circle cx="215" cy="710" r="7" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
 
-<!-- SOME/IP backbone -->
-<line x1="190" y1="192" x2="190" y2="594" stroke="#CBD5E1" stroke-width="3"/>
-<circle cx="190" cy="238" r="5.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
-<circle cx="190" cy="390" r="5.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
-<circle cx="190" cy="542" r="5.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+<!-- cards -->
+<g filter="url(#cardShadow)">
+  <rect x="129" y="158" width="172" height="98" rx="20" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.8"/>
+  <text x="215" y="192" text-anchor="middle" fill="#2563EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.6">PROFILE</text>
+  <text x="215" y="231" text-anchor="middle" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">HPC</text>
+</g>
 
-<!-- PROFILE / HPC -->
-<rect x="105" y="151" width="170" height="88" rx="18" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5"/>
-<text x="190" y="181" text-anchor="middle" fill="#2563EB"
-      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">PROFILE</text>
-<text x="190" y="218" text-anchor="middle" fill="#111827"
-      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">HPC</text>
+<g filter="url(#cardShadow)">
+  <rect x="167" y="324" width="96" height="26" rx="13" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.2"/>
+  <text x="215" y="341" text-anchor="middle" fill="#6B7280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2">SOME/IP</text>
+</g>
 
-<text x="210" y="305" fill="#6B7280"
-      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">SOME/IP</text>
+<g filter="url(#cardShadow)">
+  <rect x="105" y="395" width="220" height="98" rx="20" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.8"/>
+  <text x="215" y="453" text-anchor="middle" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="800">Education ZONE</text>
+</g>
 
-<!-- Education Zone -->
-<rect x="83" y="315" width="214" height="78" rx="18" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5"/>
-<text x="190" y="362" text-anchor="middle" fill="#111827"
-      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Education ZONE</text>
+<g filter="url(#cardShadow)">
+  <rect x="167" y="555" width="96" height="26" rx="13" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.2"/>
+  <text x="215" y="572" text-anchor="middle" fill="#6B7280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2">SOME/IP</text>
+</g>
 
-<text x="210" y="457" fill="#6B7280"
-      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">SOME/IP</text>
-
-<!-- Awards Zone -->
-<rect x="83" y="467" width="214" height="78" rx="18" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5"/>
-<text x="190" y="514" text-anchor="middle" fill="#111827"
-      font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Awards ZONE</text>
-
-<!-- lower endpoint -->
-<circle cx="190" cy="594" r="7" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+<g filter="url(#cardShadow)">
+  <rect x="105" y="615" width="220" height="108" rx="20" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.8"/>
+  <text x="215" y="665" text-anchor="middle" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="800">Awards ZONE</text>
+  <text x="215" y="693" text-anchor="middle" fill="#6B7280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Activities</text>
+</g>
 </svg>
