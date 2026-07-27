@@ -2,7 +2,7 @@
 <tr>
 <td width="30%" valign="top">
 
-<img src="./assets/vehicle-profile.svg" width="100%"/>
+<img src="./assets/vehicle-profile2.svg" width="100%"/>
 
 </td>
 <td width="70%" valign="top">
