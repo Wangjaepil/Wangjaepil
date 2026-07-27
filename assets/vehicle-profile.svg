@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="820" height="1600" viewBox="0 0 820 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Editable realistic vector top-view convertible profile</title>
+  <desc id="desc">High-detail editable vector top-view open convertible vehicle with PROFILE HPC at the front, Education ZONE in the center, Awards ZONE at the rear, connected by SOME/IP labels.</desc>
+
+  <defs>
+    <filter id="carShadow" x="-20%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#C8D2DF" flood-opacity="0.50"/>
+    </filter>
+    <filter id="cardShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#D0D7E2" flood-opacity="0.55"/>
+    </filter>
+
+    <linearGradient id="bodyPaint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#FAFBFD"/>
+      <stop offset="100%" stop-color="#EEF2F6"/>
+    </linearGradient>
+    <linearGradient id="sideTone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E9EEF4"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E9EEF4"/>
+    </linearGradient>
+    <linearGradient id="glassMain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#64748B"/>
+      <stop offset="100%" stop-color="#2B3440"/>
+    </linearGradient>
+    <linearGradient id="glassHighlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D6E3F3" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#D6E3F3" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="interiorMain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101722"/>
+      <stop offset="100%" stop-color="#060B12"/>
+    </linearGradient>
+    <linearGradient id="seatFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAF8F3"/>
+      <stop offset="100%" stop-color="#DDDAD4"/>
+    </linearGradient>
+    <linearGradient id="seatSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D6D3CE"/>
+      <stop offset="100%" stop-color="#FBFAF7"/>
+    </linearGradient>
+    <linearGradient id="lampRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2B0000"/>
+      <stop offset="40%" stop-color="#D03434"/>
+      <stop offset="65%" stop-color="#FF7272"/>
+      <stop offset="100%" stop-color="#2B0000"/>
+    </linearGradient>
+    <linearGradient id="lampClear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <radialGradient id="cockpitShade" cx="50%" cy="42%" r="70%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <g id="leftMirror" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M128 560 C98 541 72 538 55 548 C43 557 43 573 55 585 L81 607 C95 617 111 617 126 608 L149 594" fill="#FCFCFD" stroke="#111827" stroke-width="2.2"/>
+      <path d="M122 562 C108 562 95 566 83 572" stroke="#B3BEC9" stroke-width="1.8"/>
+      <path d="M147 592 L132 598" stroke="#7A8492" stroke-width="1.7"/>
+    </g>
+
+    <g id="leftHeadlamp" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M160 182 C131 214 112 251 105 297 C132 288 156 268 180 231 Z" fill="url(#lampClear)" stroke="#111827" stroke-width="2.3"/>
+      <path d="M146 201 C131 220 121 239 115 262 C131 253 145 240 158 221 Z" fill="#0F172A" opacity="0.24"/>
+      <ellipse cx="143" cy="247" rx="18" ry="31" fill="#0F172A" opacity="0.70"/>
+      <ellipse cx="143" cy="248" rx="10" ry="17" fill="#101828"/>
+      <circle cx="141" cy="238" r="4.2" fill="#E2E8F0"/>
+      <path d="M158 197 C144 212 133 230 126 251" stroke="#9AA9BC" stroke-width="1.45"/>
+    </g>
+
+    <g id="leftTaillight" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M164 1424 C134 1398 113 1361 105 1315 C131 1326 157 1348 182 1378 Z" fill="url(#lampRed)" stroke="#111827" stroke-width="2.3"/>
+      <path d="M176 1407 C152 1381 133 1362 113 1349" stroke="#FCA5A5" stroke-width="1.9" opacity="0.72"/>
+    </g>
+
+    <g id="leftSeat">
+      <path d="M243 583 C259 564 281 555 304 556 C321 557 336 567 345 582 L344 743 C334 759 318 768 300 771 C277 775 257 768 240 752 L227 730 L227 604 Z"
+            fill="url(#seatFill)" stroke="#A8AFB7" stroke-width="2"/>
+      <path d="M245 750 C252 726 256 696 256 656 C256 617 252 591 245 580" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.38"/>
+      <path d="M252 615 C266 605 282 601 298 603 C312 604 324 610 332 619" fill="none" stroke="#D1D5DB" stroke-width="2.1"/>
+      <path d="M252 649 C266 639 282 635 298 637 C312 638 324 644 332 653" fill="none" stroke="#D1D5DB" stroke-width="2.1"/>
+      <path d="M252 683 C266 673 282 669 298 671 C312 672 324 678 332 687" fill="none" stroke="#D1D5DB" stroke-width="2.1"/>
+      <path d="M241 728 L228 756 C227 766 233 774 244 777 L276 779 C286 777 293 772 297 763 L301 742" fill="url(#seatSide)" stroke="#A8AFB7" stroke-width="1.8"/>
+    </g>
+  </defs>
+
+  <g inkscape:groupmode="layer" inkscape:label="00 Canvas" id="layer-canvas">
+    <rect width="820" height="1600" rx="32" fill="#FFFFFF"/>
+    <rect x="1.5" y="1.5" width="817" height="1597" rx="30.5" fill="none" stroke="#EEF2F6" stroke-width="2"/>
+  </g>
+
+  <g inkscape:groupmode="layer" inkscape:label="01 Body" id="layer-body" filter="url(#carShadow)" stroke-linecap="round" stroke-linejoin="round">
+    <path id="body-outer" d="M410 34
+            C288 34 226 71 177 134
+            L144 179
+            C114 222 99 310 94 454
+            L94 1148
+            C99 1292 114 1380 144 1421
+            L177 1466
+            C226 1529 288 1566 410 1566
+            C532 1566 594 1529 643 1466
+            L676 1421
+            C706 1380 721 1292 726 1148
+            L726 454
+            C721 310 706 222 676 179
+            L643 134
+            C594 71 532 34 410 34 Z"
+          fill="url(#bodyPaint)" stroke="#111827" stroke-width="4.2"/>
+
+    <path d="M171 190 C158 235 150 319 146 454 L146 1148 C150 1283 158 1366 171 1410" fill="none" stroke="#E6EBF1" stroke-width="20" opacity="0.70"/>
+    <path d="M649 190 C662 235 670 319 674 454 L674 1148 C670 1283 662 1366 649 1410" fill="none" stroke="#E6EBF1" stroke-width="20" opacity="0.70"/>
+
+    <path d="M218 113 C274 73 336 58 410 58 C484 58 546 73 602 113" fill="none" stroke="#6B7280" stroke-width="2.6"/>
+    <path d="M232 135 C286 102 343 89 410 89 C477 89 534 102 588 135" fill="none" stroke="#C6CFDB" stroke-width="2"/>
+    <path d="M410 120 L410 256" fill="none" stroke="#C6CFDB" stroke-width="3"/>
+    <path d="M219 153 C265 203 280 291 286 377" fill="none" stroke="#C9D2DD" stroke-width="1.9"/>
+    <path d="M601 153 C555 203 540 291 534 377" fill="none" stroke="#C9D2DD" stroke-width="1.9"/>
+    <path d="M230 164 C288 131 346 118 410 118 C474 118 532 131 590 164" fill="none" stroke="#111827" stroke-width="2.4"/>
+
+    <path d="M233 1427 C291 1463 348 1476 410 1476 C472 1476 529 1463 587 1427" fill="none" stroke="#111827" stroke-width="2.4"/>
+    <path d="M245 1452 C298 1482 351 1494 410 1494 C469 1494 522 1482 575 1452" fill="none" stroke="#C6CFDB" stroke-width="2"/>
+    <path d="M410 1393 L410 1488" fill="none" stroke="#C6CFDB" stroke-width="3"/>
+
+    <use xlink:href="#leftHeadlamp"/>
+    <use xlink:href="#leftHeadlamp" transform="translate(820 0) scale(-1 1)"/>
+    <use xlink:href="#leftMirror"/>
+    <use xlink:href="#leftMirror" transform="translate(820 0) scale(-1 1)"/>
+
+    <path d="M162 614 C133 657 124 739 124 852 L124 975 C124 1085 133 1167 161 1208" fill="none" stroke="#111827" stroke-width="4"/>
+    <path d="M658 614 C687 657 696 739 696 852 L696 975 C696 1085 687 1167 659 1208" fill="none" stroke="#111827" stroke-width="4"/>
+    <path d="M178 641 C158 681 152 758 152 852 L152 974 C152 1054 158 1119 177 1161" fill="none" stroke="#C7D0DC" stroke-width="1.9"/>
+    <path d="M642 641 C662 681 668 758 668 852 L668 974 C668 1054 662 1119 643 1161" fill="none" stroke="#C7D0DC" stroke-width="1.9"/>
+
+    <path d="M180 581 C202 553 225 540 255 534" fill="none" stroke="#A8B4C5" stroke-width="2"/>
+    <path d="M180 1075 C202 1048 225 1037 255 1032" fill="none" stroke="#A8B4C5" stroke-width="2"/>
+    <path d="M640 581 C618 553 595 540 565 534" fill="none" stroke="#A8B4C5" stroke-width="2"/>
+    <path d="M640 1075 C618 1048 595 1037 565 1032" fill="none" stroke="#A8B4C5" stroke-width="2"/>
+
+    <path d="M180 748 C202 731 226 723 254 720" fill="none" stroke="#C3CCD8" stroke-width="1.45"/>
+    <path d="M640 748 C618 731 594 723 566 720" fill="none" stroke="#C3CCD8" stroke-width="1.45"/>
+    <path d="M181 1256 C206 1279 245 1292 289 1293" fill="none" stroke="#C3CCD8" stroke-width="1.45"/>
+    <path d="M639 1256 C614 1279 575 1292 531 1293" fill="none" stroke="#C3CCD8" stroke-width="1.45"/>
+
+    <use xlink:href="#leftTaillight"/>
+    <use xlink:href="#leftTaillight" transform="translate(820 0) scale(-1 1)"/>
+  </g>
+
+  <g inkscape:groupmode="layer" inkscape:label="02 Convertible" id="layer-convertible" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M205 404 C253 351 302 329 410 329 C518 329 567 351 615 404 L603 520 C546 503 484 495 410 495 C336 495 274 503 217 520 Z"
+          fill="#0F141C"/>
+    <path d="M220 410 C265 363 311 344 410 344 C509 344 555 363 600 410 L590 502 C538 487 480 480 410 480 C340 480 282 487 230 502 Z"
+          fill="url(#glassMain)" stroke="#111827" stroke-width="2.5"/>
+    <path d="M228 420 C269 378 315 360 410 360 C505 360 551 378 592 420 L585 465 C540 454 484 449 410 449 C336 449 280 454 235 465 Z"
+          fill="url(#glassHighlight)"/>
+    <path d="M214 509 C272 493 335 485 410 485 C485 485 548 493 606 509" fill="none" stroke="#111827" stroke-width="3"/>
+
+    <path d="M216 518 C271 501 334 493 410 493 C486 493 549 501 604 518 L592 1120 C540 1136 482 1144 410 1144 C338 1144 280 1136 228 1120 Z"
+          fill="#0D131B" stroke="#111827" stroke-width="3"/>
+    <path d="M230 531 C281 516 339 509 410 509 C481 509 539 516 590 531 L580 1101 C531 1116 476 1123 410 1123 C344 1123 289 1116 240 1101 Z"
+          fill="url(#interiorMain)"/>
+    <ellipse cx="410" cy="757" rx="176" ry="305" fill="url(#cockpitShade)"/>
+
+    <path d="M247 517 C293 506 346 500 410 500 C474 500 527 506 573 517 L568 580 C523 596 470 604 410 604 C350 604 297 596 252 580 Z"
+          fill="#151C27" stroke="#5C6675" stroke-width="1.5"/>
+    <path d="M380 515 C388 507 398 502 410 502 C422 502 432 507 440 515 L447 744 C439 754 426 760 410 760 C394 760 381 754 373 744 Z"
+          fill="#111827" stroke="#475569" stroke-width="1.8"/>
+    <circle cx="410" cy="543" r="5" fill="#334155"/>
+    <circle cx="398" cy="567" r="4" fill="#334155"/>
+    <circle cx="422" cy="567" r="4" fill="#334155"/>
+    <rect x="396" y="593" width="28" height="90" rx="9" fill="#1F2937"/>
+
+    <circle cx="296" cy="538" r="34" fill="none" stroke="#101828" stroke-width="11"/>
+    <circle cx="296" cy="538" r="21" fill="#263242"/>
+    <path d="M296 517 L296 559 M275 538 L317 538" stroke="#CBD5E1" stroke-width="2.2" opacity="0.75"/>
+
+    <use xlink:href="#leftSeat"/>
+    <use xlink:href="#leftSeat" transform="translate(820 0) scale(-1 1)"/>
+
+    <path d="M261 1008 C303 1021 352 1027 410 1027 C468 1027 517 1021 559 1008 L568 1101 C521 1113 471 1119 410 1119 C349 1119 299 1113 252 1101 Z"
+          fill="#101826" stroke="#405065" stroke-width="1.5"/>
+    <path d="M276 1032 C315 1043 358 1049 410 1049 C462 1049 505 1043 544 1032" fill="none" stroke="#304053" stroke-width="2"/>
+
+    <path d="M232 1214 C284 1269 339 1294 410 1298 C481 1294 536 1269 588 1214 L577 1386 C528 1429 474 1448 410 1448 C346 1448 292 1429 243 1386 Z"
+          fill="none" stroke="#BAC5D3" stroke-width="2.4"/>
+    <path d="M263 1291 C305 1325 353 1340 410 1340 C467 1340 515 1325 557 1291" fill="none" stroke="#A8B4C5" stroke-width="2"/>
+  </g>
+
+  <g inkscape:groupmode="layer" inkscape:label="03 Architecture" id="layer-architecture" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="410" y1="398" x2="410" y2="1216" stroke="#CCD5E1" stroke-width="6"/>
+    <circle cx="410" cy="398" r="12" fill="#FFFFFF" stroke="#4C6FFF" stroke-width="5"/>
+    <circle cx="410" cy="800" r="12" fill="#FFFFFF" stroke="#4C6FFF" stroke-width="5"/>
+    <circle cx="410" cy="1216" r="12" fill="#FFFFFF" stroke="#4C6FFF" stroke-width="5"/>
+
+    <g id="card-profile" filter="url(#cardShadow)">
+      <rect x="258" y="210" width="304" height="176" rx="26" fill="#FFFFFF" stroke="#4F6BFF" stroke-width="2.8"/>
+      <text x="410" y="274" text-anchor="middle" fill="#4F6BFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4" dominant-baseline="middle">PROFILE</text>
+      <text x="410" y="330" text-anchor="middle" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" dominant-baseline="middle">HPC</text>
+    </g>
+
+    <g id="card-someip-top" filter="url(#cardShadow)">
+      <rect x="338" y="528" width="144" height="46" rx="23" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+      <text x="410" y="551" text-anchor="middle" dominant-baseline="middle" fill="#6B7280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">SOME/IP</text>
+    </g>
+
+    <g id="card-education" filter="url(#cardShadow)">
+      <rect x="230" y="712" width="360" height="176" rx="26" fill="#FFFFFF" stroke="#4F6BFF" stroke-width="2.8"/>
+      <text x="410" y="800" text-anchor="middle" dominant-baseline="middle" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800">Education ZONE</text>
+    </g>
+
+    <g id="card-someip-bottom" filter="url(#cardShadow)">
+      <rect x="338" y="1028" width="144" height="46" rx="23" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+      <text x="410" y="1051" text-anchor="middle" dominant-baseline="middle" fill="#6B7280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">SOME/IP</text>
+    </g>
+
+    <g id="card-awards" filter="url(#cardShadow)">
+      <rect x="230" y="1242" width="360" height="170" rx="26" fill="#FFFFFF" stroke="#4F6BFF" stroke-width="2.8"/>
+      <text x="410" y="1328" text-anchor="middle" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800">Awards ZONE</text>
+      <text x="410" y="1380" text-anchor="middle" fill="#6B7280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="600">Activities</text>
+    </g>
+  </g>
+</svg>
