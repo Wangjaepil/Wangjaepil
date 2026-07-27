@@ -1,11 +1,11 @@
 <table>
 <tr>
-<td width="38%" valign="top">
+<td width="30%" valign="top">
 
 <img src="./assets/vehicle-profile.svg" width="100%"/>
 
 </td>
-<td width="62%" valign="top">
+<td width="70%" valign="top">
 
 <h1>Wang Jaepil</h1>
 
