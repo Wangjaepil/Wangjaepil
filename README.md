@@ -34,6 +34,9 @@
 <p>🤖 <b>2025 · SK 인텔릭스 NAMUX</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;↳ 자율주행 스마트 공기청정기 활용 아이디어 제안 · <b>본선 진출</b></p>
 
+<p>🥇 <b>2026 · 차량용 임베디드 sw 개발 프로젝트</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;↳ 스마트 도어 시스템
+
 <p>⚙️ <b>2026 · 임베디드 SW 모빌리티 경진대회</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;↳ 사용자 맞춤형 차량 설정 시스템</p>
 
